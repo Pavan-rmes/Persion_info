@@ -13,4 +13,7 @@ function fun()
         Persion_info.innerHTML = `name : ${name} <br> Age : ${Age} <br> city : ${city}`
         img.src =  info.picture.large
     })
+    .catch(err=>{
+        console.log(err)
+    })
 }
